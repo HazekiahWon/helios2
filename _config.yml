@@ -90,7 +90,7 @@
 #}
 
 # 以下四个配置项为空时jekyll-github-metadata会帮你生成
-title: wu-kan
+title: Haozhe Wang
 description: | # 头像背后的信息，<br/>代表换行
   CS Master at ShanghaiTech <br/>
   Prior WHUer <br/>
@@ -228,7 +228,8 @@ comments:
           "visitor": true,
           "highlight": true,
           "avatarForce": false,
-          "recordIP": true
+          "recordIP": true,
+          "lang": "en"
         })'
     ></script>
 
@@ -257,14 +258,14 @@ post:
     <i class="fab fa-creative-commons"></i>
     <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>
     <br/>
-    <i class="fas fa-coffee"></i>
     <!-- patronize
+    <i class="fas fa-coffee"></i>
     # <a href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
     -->
 
 page:
   body:
-    theme-base: theme-base-0d # 可选的值08~0f，见https://github.com/poole/lanyon
+    theme-base: theme-base-07 # 可选的值08~0f，见https://github.com/poole/lanyon
     layout-reverse: false # 开启后sidebar在右边，反之左边
     sidebar-overlay: false # 开启后正文不随sidebar移动而移动
   sidebar:
@@ -272,18 +273,19 @@ page:
       enable: false
       img: https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300 # 头像的地址
     nav:
-      - title: '<i class="fas fa-home fa-fw"></i> CV'
+      - title: '<i class="fas fa-home fa-fw"></i> About me'
         href: /
       - title: '<i class="fas fa-tags fa-fw"></i> Posts'
         href: /tags/
       - title: '<i class="fas fa-archive fa-fw"></i> Timeline'
         href: /archive/
-      - title: '<i class="fab fa-readme fa-fw"></i> About this theme'
-        href: /about/
       - title: '<i class="fas fa-comments fa-fw"></i> Comments'
         href: /comments/
-      - title: '<i class="fas fa-coffee fa-fw"></i> Patronage'
-        href: /merger/
+      - title: '<i class="fab fa-readme fa-fw"></i> About this theme'
+        href: /about/
+
+      # - title: '<i class="fas fa-coffee fa-fw"></i> Patronage'
+      #   href: /merger/
     simple_jekyll_search:
       enable: true
       full_text_search: false # 可能导致缓慢的搜索和加载
@@ -327,16 +329,16 @@ page:
         <i class="fas fa-cog fa-spin fa-fw"></i>
         <span id="run_time_day">
           <i class="fas fa-spinner fa-pulse"></i>
-        </span>days
+        </span>d
         <span id="run_time_hour">
           <i class="fas fa-spinner fa-pulse"></i>
-        </span>hours
+        </span>hr
         <span id="run_time_minute">
           <i class="fas fa-spinner fa-pulse"></i>
-        </span>minutes
+        </span>min
         <span id="run_time_second">
           <i class="fas fa-spinner fa-pulse"></i>
-        </span>seconds
+        </span>sec
         <script>
           setInterval(function (BirthDay) {
             function setzero(i) {
@@ -368,19 +370,19 @@ page:
           <i class="fas fa-eye fa-fw"></i>
           <span id="busuanzi_value_page_pv">
             <i class="fas fa-spinner fa-pulse"></i>
-          </span>
+          </span> reads this page.
         </div>
         <div>
           <i class="fas fa-paw fa-fw"></i>
           <span id="busuanzi_value_site_pv">
             <i class="fas fa-spinner fa-pulse"></i>
-          </span>
+          </span> visits this site.
         </div>
         <div>
           <i class="fas fa-user-friends fa-fw"></i>
           <span id="busuanzi_value_site_uv">
             <i class="fas fa-spinner fa-pulse"></i>
-          </span>
+          </span> visitors this site.
         </div>
         <script
           src='https://cdn.jsdelivr.net/npm/busuanzi'
@@ -390,8 +392,8 @@ page:
     wordcount:
       enable: true
       alert: <i class="fas fa-user-edit fa-fw"></i>
-      kilo: 千
-      unit: 字
+      kilo: ,
+      unit: words
   head:
     | # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章<https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
     <meta

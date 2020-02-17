@@ -47,8 +47,7 @@
         {% assign count = count | plus: single_count %}
         {% endfor %}
         {% if count > 1000 %}
-        {{ count | divided_by: 1000 }}{{ site.page.sidebar.wordcount.kilo }}
-        {{ count | modulo: 1000 }}{{ site.page.sidebar.wordcount.unit }}
+        {{ count | divided_by: 1000 }}{{ site.page.sidebar.wordcount.kilo }}{{ count | modulo: 1000 }}{{ site.page.sidebar.wordcount.unit }}
         {% else %}
         {{ count }}{{ site.page.sidebar.wordcount.unit }}
         {% endif %}
