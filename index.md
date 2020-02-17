@@ -11,17 +11,15 @@ title: CV
 
 ## Education
 
-- (Bachelor) School of Computer Science, Wuhan University, Wuhan.
-
+- (Bachelor) School of Computer Science, Wuhan University.  
     Sept. 2015 - Jul. 2019
 
-- (Master) School of Information Science and Technology, ShanghaiTech University.
-
+- (Master) School of Information Science and Technology, ShanghaiTech University.  
     Sept. 2019 - Jul. 2022 (expected)
 
 ## Publications
 
-- Learning Context-aware Task Reasoning for Meta-Reinforcement Learning. 
+- _Learning Context-aware Task Reasoning for Meta-Reinforcement Learning._   **Haozhe Wang**, Jiale Zhou, Xuming He.  
 
     To appear on [AAMAS2020](https://aamas2020.conference.auckland.ac.nz/).
 

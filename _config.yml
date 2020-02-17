@@ -270,8 +270,8 @@ page:
     sidebar-overlay: false # 开启后正文不随sidebar移动而移动
   sidebar:
     avatar: # 侧边栏显示的头像
-      enable: false
-      img: https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300 # 头像的地址
+      enable: true
+      img: /assets/image/logo.png # 头像的地址
     nav:
       - title: '<i class="fas fa-home fa-fw"></i> About me'
         href: /
@@ -440,12 +440,12 @@ page:
     />
     <link
       rel="apple-touch-icon-precomposed"
-      href="https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300"
+      href="/assets/image/logo.png"
     />
     <link
       rel="shortcut
       icon"
-      href="https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=32"
+      href="/assets/image/logo.png"
     />
     <link
       rel="stylesheet"
