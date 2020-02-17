@@ -92,38 +92,38 @@
 # 以下四个配置项为空时jekyll-github-metadata会帮你生成
 title: wu-kan
 description: | # 头像背后的信息，<br/>代表换行
-  SYSU超算17级在读<br/>
-  永远喜欢水野爱<br/>
-  田宫例四驱车<br/>
-  ASC<br/>
+  CS Master at ShanghaiTech <br/>
+  Prior WHUer <br/>
   <a href="/assets/jekyll-sitemaps/atom.xml" title="rss">
     <i class="fas fa-rss"></i>
   </a>
-  <a href="mailto:wu.kan@foxmail.com" title="wu.kan@foxmail.com">
+  <a href="mailto:wu.kan@foxmail.com" title="wanghzh@shanghaitech.edu.cn"> 
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="https://github.com/wu-kan" title="github">
+  <a href="https://github.com/HazekiahWon" title="github">
     <i class="fab fa-github"></i>
   </a>
-  <a href="https://codeforces.com/profile/WuK" title="WuK">
-    <i class="fas fa-chart-bar fw"></i>
-  </a>
-  <a href="https://vjudge.net/user/WuK" title="WuK">
-    <i class="fas fa-smile"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities" title="zhihu">
-    <i class="fab fa-zhihu"></i>
-  </a>
-  <iframe
-    src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
-    width=100%
-    height=52
-    frameborder="no"
-    border="0"
-    marginwidth="0"
-    marginheight="0"
-  ></iframe>
-url: https://wu-kan.cn # https://wu-kan.github.io
+  <!--
+  # <a href="https://codeforces.com/profile/WuK" title="WuK">
+  #   <i class="fas fa-chart-bar fw"></i>
+  # </a>
+  # <a href="https://vjudge.net/user/WuK" title="WuK">
+  #   <i class="fas fa-smile"></i>
+  # </a>
+  # <a href="https://www.zhihu.com/people/wu.kan/activities" title="zhihu">
+  #   <i class="fab fa-zhihu"></i>
+  # </a>
+  # <iframe
+  #   src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
+  #   width=100%
+  #   height=52
+  #   frameborder="no"
+  #   border="0"
+  #   marginwidth="0"
+  #   marginheight="0"
+  # ></iframe>
+  -->
+url: https://hazekiah.gitee.io # https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 markdown: kramdown
@@ -134,8 +134,8 @@ kramdown: # 见https://kramdown.gettalong.org/options.html
 
 permalink: /_posts/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
 author:
-  name: WuK
-  email: wu.kan@foxmail.com
+  name: Haozhe Wang 
+  email: wanghzh@shanghaitech.edu.cn
 timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见https://www.iana.org/time-zones
 future: false # 不发布时间在未来的文章
 
@@ -160,7 +160,7 @@ page404:
       defer='defer'
       charset='utf-8'
       homePageUrl='/'
-      homePageName='回到我的主页'
+      homePageName='Back to the main site.'
     ></script>
 
 merger: # 支持的变量见https://merger.justhx.com/cn/docs/configure
@@ -183,27 +183,29 @@ merger: # 支持的变量见https://merger.justhx.com/cn/docs/configure
       src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
       defer='defer'
     ></script>
-    <script>
-      var usage = "payment";
-      var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
-      var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
-      var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
-      var paypal = "https://paypal.me/wukan0621";
-      var myname = "WuK";
-      var profile = "https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300";
-      var multilingual = true;
-      var myname_hans = "吴坎";
-      var myname_hant = "吴坎";
-      var myname_eng = "WuK";
-      var title = "选择你的支付方式";
-      var subtitle = "跟随进一步的指示以向" + myname + "付款";
-      var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
-    </script>
+    <!--
+    # <script>
+    #   var usage = "payment";
+    #   var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
+    #   var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
+    #   var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
+    #   var paypal = "https://paypal.me/wukan0621";
+    #   var myname = "WuK";
+    #   var profile = "https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300";
+    #   var multilingual = true;
+    #   var myname_hans = "吴坎";
+    #   var myname_hant = "吴坎";
+    #   var myname_eng = "WuK";
+    #   var title = "选择你的支付方式";
+    #   var subtitle = "跟随进一步的指示以向" + myname + "付款";
+    #   var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
+    # </script>
+    -->
 
 archive:
   posts_count:
     enable: true
-    alert: 篇博文。长路漫漫！
+    alert: posts.
 
 comments:
   enable: true # 需要在script中引入
@@ -217,12 +219,12 @@ comments:
       onload='
         new Valine({
           "el": ".v",
-          "appId": "9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz",
-          "appKey": "NJ7RwmgrxsF7KDzlqU7YewlL",
+          "appId": "5M3WNhHcdjtS0FvPEFihmefg-gzGzoHsz",
+          "appKey": "oFfyum3JGzVRqE0rtdoTfgkA",
           "notify": "true",
           "verify": "true",
           "avatar": "identicon",
-          "placeholder": "在这里评论吧！",
+          "placeholder": "Leave your comments here!",
           "visitor": true,
           "highlight": true,
           "avatarForce": false,
@@ -237,54 +239,56 @@ post:
   wordcount:
     enable: true
     alert: <i class="fas fa-file-word"></i>
-    unit: 字
+    unit: words
   readtime:
     enable: true
     alert: <i class="fas fa-book-open"></i>
-    unit: 分
-    divided_by: 300
+    unit: min
+    divided_by: 100
   visitor: # 需要引入并开启valine的visitor选项使之开始计数; 可能会和busuanzi统计的有出入
     enable: true
     alert: <i class="far fa-eye"></i>
-    unit: 次
+    unit: times
   tags:
     enable: true
     alert: <i class="fas fa-tag"></i>
   copyright: |
     <br/>
     <i class="fab fa-creative-commons"></i>
-    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>（除特别声明或转载文章外）
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>
     <br/>
     <i class="fas fa-coffee"></i>
-    <a href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
+    <!-- patronize
+    # <a href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
+    -->
 
 page:
   body:
-    theme-base: theme-base-07 # 可选的值08~0f，见https://github.com/poole/lanyon
+    theme-base: theme-base-0d # 可选的值08~0f，见https://github.com/poole/lanyon
     layout-reverse: false # 开启后sidebar在右边，反之左边
     sidebar-overlay: false # 开启后正文不随sidebar移动而移动
   sidebar:
     avatar: # 侧边栏显示的头像
-      enable: true
+      enable: false
       img: https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300 # 头像的地址
     nav:
-      - title: '<i class="fas fa-home fa-fw"></i> 首页'
+      - title: '<i class="fas fa-home fa-fw"></i> CV'
         href: /
-      - title: '<i class="fab fa-readme fa-fw"></i> 关于'
-        href: /about/
-      - title: '<i class="fas fa-comments fa-fw"></i> 留言'
-        href: /comments/
-      - title: '<i class="fas fa-tags fa-fw"></i> 标签'
+      - title: '<i class="fas fa-tags fa-fw"></i> Posts'
         href: /tags/
-      - title: '<i class="fas fa-archive fa-fw"></i> 归档'
+      - title: '<i class="fas fa-archive fa-fw"></i> Timeline'
         href: /archive/
-      - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
+      - title: '<i class="fab fa-readme fa-fw"></i> About this theme'
+        href: /about/
+      - title: '<i class="fas fa-comments fa-fw"></i> Comments'
+        href: /comments/
+      - title: '<i class="fas fa-coffee fa-fw"></i> Patronage'
         href: /merger/
     simple_jekyll_search:
       enable: true
       full_text_search: false # 可能导致缓慢的搜索和加载
       alert: |
-        <input id="sidebar-search-input" placeholder="搜索博文" />
+        <input id="sidebar-search-input" placeholder="Search a post" />
         <div id="sidebar-search-results-container"></div>
         <script
           src='https://cdn.jsdelivr.net/npm/simple-jekyll-search/dest/simple-jekyll-search.min.js'
@@ -299,7 +303,7 @@ page:
         ></script>
     alert: |
       <aside id="toc">
-        目录
+        Table of contents
       </aside>
       <script
         src='https://cdn.jsdelivr.net/gh/yijian166/md-toc.js/md-toc.min.js'
@@ -308,31 +312,31 @@ page:
       ></script>
       <div>
         <i class="fab fa-github-alt fa-fw"></i>
-        <a href="https://github.com/wu-kan/wu-kan.github.io">
+        <a href="https://gitee.com/hazekiah/hazekiah/star">
           <img src="https://img.shields.io/github/stars/wu-kan/wu-kan.github.io.svg"/>
         </a>
-        <a href="https://github.com/wu-kan/wu-kan.github.io/fork">
+        <a href="https://gitee.com/hazekiah/hazekiah">
           <img src="https://img.shields.io/github/forks/wu-kan/wu-kan.github.io.svg"/>
         </a>
       </div>
       <div>
         <i class="fas fa-copyright fa-fw"></i>
-        2017-2020 WuK
+        Haozhe Wang (based on WuK ©)
       </div>
       <div>
         <i class="fas fa-cog fa-spin fa-fw"></i>
         <span id="run_time_day">
           <i class="fas fa-spinner fa-pulse"></i>
-        </span>天
+        </span>days
         <span id="run_time_hour">
           <i class="fas fa-spinner fa-pulse"></i>
-        </span>时
+        </span>hours
         <span id="run_time_minute">
           <i class="fas fa-spinner fa-pulse"></i>
-        </span>分
+        </span>minutes
         <span id="run_time_second">
           <i class="fas fa-spinner fa-pulse"></i>
-        </span>秒
+        </span>seconds
         <script>
           setInterval(function (BirthDay) {
             function setzero(i) {
@@ -356,7 +360,7 @@ page:
             document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
             document.getElementById("run_time_minute").innerHTML = setzero(minsold);
             document.getElementById("run_time_second").innerHTML = setzero(seconds);
-          }, 1000, "10/04/2017 11:03:56") // 这是我第一篇CSDN博客的时间
+          }, 1000, "12/12/2018 00:00:00") // 这是我第一篇CSDN博客的时间
         </script>
       </div>
       <div>
@@ -364,19 +368,19 @@ page:
           <i class="fas fa-eye fa-fw"></i>
           <span id="busuanzi_value_page_pv">
             <i class="fas fa-spinner fa-pulse"></i>
-          </span>次
+          </span>
         </div>
         <div>
           <i class="fas fa-paw fa-fw"></i>
           <span id="busuanzi_value_site_pv">
             <i class="fas fa-spinner fa-pulse"></i>
-          </span>枚
+          </span>
         </div>
         <div>
           <i class="fas fa-user-friends fa-fw"></i>
           <span id="busuanzi_value_site_uv">
             <i class="fas fa-spinner fa-pulse"></i>
-          </span>人
+          </span>
         </div>
         <script
           src='https://cdn.jsdelivr.net/npm/busuanzi'
@@ -537,46 +541,48 @@ page:
           return button;
         })'
     ></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.css" />
-    <script defer="defer" src="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/l2d.js">
-    </script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.js" onload='
-      if (screen.width > screen.height) {
-        var pio_container = document.createElement("div");
-        pio_container.classList.add("pio-container");
-        pio_container.classList.add("right");
-        document.body.insertAdjacentElement("beforeend", pio_container);
-        var pio_action = document.createElement("div");
-        pio_action.classList.add("pio-action");
-        pio_container.insertAdjacentElement("beforeend", pio_action);
-        var pio_canvas = document.createElement("canvas");
-        pio_canvas.id = "pio";
-        pio_canvas.style.width = "14rem";
-        pio_canvas.width = "600";
-        pio_canvas.height = "800";
-        pio_container.insertAdjacentElement("beforeend", pio_canvas);
-        var pio = new Paul_Pio({
-          "mode": "draggable",
-          "hidden": true,
-          "content": {
-            "welcome": ["欢迎来到我的博客~"],
-            "refer": ["欢迎来自 %t 的朋友~"],
-            "link": ["/about/"],
-            "skin": ["要换成我的朋友吗？", "让她休息一会儿吧~"],
-            "custom": [
-              { "selector": ".v", "text": "欢迎参与本文评论，别发小广告噢~" }
-            ]
-          },
-          "model": [
-            "https:\/\/cdn.jsdelivr.net/gh/52cik/bilibili-haruna/assets/haruna/33/model.2018.bls-winter.json",
-            "https:\/\/cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/nepnep/index.json",
-            "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/Kobayaxi/Kobayaxi.model.json",
-            "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/mikoto/mikoto.model.json",
-            "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json",
-            "https:\/\/cdn.jsdelivr.net/gh/xiazeyu/live2d-widget-models/packages/live2d-widget-model-z16/assets/z16.model.json"]
-        });
-      }'
-    ></script>
+    <!--
+    # <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.css" />
+    # <script defer="defer" src="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/l2d.js">
+    # </script>
+    # <script defer="defer" src="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.js" onload='
+    #   if (screen.width > screen.height) {
+    #     var pio_container = document.createElement("div");
+    #     pio_container.classList.add("pio-container");
+    #     pio_container.classList.add("right");
+    #     document.body.insertAdjacentElement("beforeend", pio_container);
+    #     var pio_action = document.createElement("div");
+    #     pio_action.classList.add("pio-action");
+    #     pio_container.insertAdjacentElement("beforeend", pio_action);
+    #     var pio_canvas = document.createElement("canvas");
+    #     pio_canvas.id = "pio";
+    #     pio_canvas.style.width = "14rem";
+    #     pio_canvas.width = "600";
+    #     pio_canvas.height = "800";
+    #     pio_container.insertAdjacentElement("beforeend", pio_canvas);
+    #     var pio = new Paul_Pio({
+    #       "mode": "draggable",
+    #       "hidden": true,
+    #       "content": {
+    #         "welcome": ["欢迎来到我的博客~"],
+    #         "refer": ["欢迎来自 %t 的朋友~"],
+    #         "link": ["/about/"],
+    #         "skin": ["要换成我的朋友吗？", "让她休息一会儿吧~"],
+    #         "custom": [
+    #           { "selector": ".v", "text": "欢迎参与本文评论，别发小广告噢~" }
+    #         ]
+    #       },
+    #       "model": [
+    #         "https:\/\/cdn.jsdelivr.net/gh/52cik/bilibili-haruna/assets/haruna/33/model.2018.bls-winter.json",
+    #         "https:\/\/cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/nepnep/index.json",
+    #         "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/Kobayaxi/Kobayaxi.model.json",
+    #         "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/mikoto/mikoto.model.json",
+    #         "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json",
+    #         "https:\/\/cdn.jsdelivr.net/gh/xiazeyu/live2d-widget-models/packages/live2d-widget-model-z16/assets/z16.model.json"]
+    #     });
+    #   }'
+    # ></script>
+    -->
     <script
       src='https://zz.bdstatic.com/linksubmit/push.js'
       <!--
@@ -606,6 +612,7 @@ page:
     .sidebar {
       font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
     }
+    /*
     .wrap {
       background-image: url(/assets/image/74559485_p2.webp);
       background-size: 100vw auto;
@@ -618,6 +625,7 @@ page:
         background-image: url(https://cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io@0dea9ba84fd9529e6635ec4c6604525470852730/assets/image/71932901_p0.webp);
       }
     }
+    */
     .container {
       background-color: rgba(255, 255, 255, 0.7);
       box-shadow: 0 0 1rem 1rem rgba(255, 255, 255, 0.7);
