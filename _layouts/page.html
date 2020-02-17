@@ -46,11 +46,11 @@
         {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
         {% assign count = count | plus: single_count %}
         {% endfor %}
-        {% if count > 1000 %}
+        <!-- {% if count > 1000 %}
         {{ count | divided_by: 1000 }}{{ site.page.sidebar.wordcount.kilo }}{{ count | modulo: 1000 }}{{ site.page.sidebar.wordcount.unit }}
-        {% else %}
-        {{ count }}{{ site.page.sidebar.wordcount.unit }}
-        {% endif %}
+        {% else %} -->
+        {{ count }} {{ site.page.sidebar.wordcount.unit }}
+        <!-- {% endif %} -->
       </div>
       {% endif %}
     </div>
