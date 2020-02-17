@@ -30,6 +30,6 @@ title: CV
 
 ## Research Directions
 
-- Meta-reinforcement Learning
-- Self-supervise Learning
+- Learning with few data
+- Learning with weak supervision
 - Multimodality Reasoning
