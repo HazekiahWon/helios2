@@ -614,6 +614,15 @@ page:
     .sidebar {
       font-family: Arial, "Courier New", Microsoft JhengHei, monospace;
     }
+    .nothing
+    {
+       border-collapse:collapse;
+    } 
+    .nothing td
+    {
+       border:none;
+       outline:none;
+    }
     /*
     .wrap {
       background-image: url(/assets/image/74559485_p2.webp);
