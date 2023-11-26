@@ -4,10 +4,9 @@ title: About Me
 ---
   <table>
   <tbody><tr>
-  <td >
-      <img width="300px" class="img-rounded"
-        src=assets/image/photo2.JPG>
-  </td><td style="padding:10px">
+  <td><img width="300px" src=assets/image/photo2.JPG>
+  </td>
+    <td style="padding:10px">
     <center>
     <h1>Haozhe Wang 王浩哲</h1>
     <b>Research Engineer</b>, Alibaba Group<br>
@@ -15,9 +14,9 @@ title: About Me
     <span style="font-size:16px">
       <a href="cv/cv.comp.pdf">[CV]</a>
       <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AH70aAXKjDjD1F_ZuFCn33pqS74ls-xL4AzvZhlpBKNUNl3A6PwinXFgpnF05TpLuQ-HviTC9Jvc5jk22Rn08Ong3wW-DfgCEyUzXoMVG84lsCuPs-p4FEFH74-9oPrRmt8&user=V96YGIMAAAAJ">[Google Scholar]</a>
-      <!-- <a href="https://twitter.com/yuntiandeng">[Twitter]</a> -->
     </span>
-</center>
+    </center>
+    </td>
   </tr>
   </tbody></table>
 
