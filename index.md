@@ -6,7 +6,7 @@ title: About Me
   <tbody>
     <tr>
       <td style="padding:10px 90px 10px 0px">
-      <img width="200px" class="img-rounded" src="assets/image/photo2.JPG">
+      <img width="200px" class="img-rounded" src="/assets/image/photo2.JPG">
   </td>
       <td style="padding:10px">
         <center>
@@ -32,8 +32,8 @@ I received a Bachelor's degree from Wuhan University in 2019, and earned the Nat
 
 I have a broad research experience in machine learning, including
 Reinforcement Learning, Variational Bayes, Robustness, Vision and Language, etc.
-Currently, I am excited about the potentials of Generative AI. I am passionate about research on Large Language Models (LLMs),
-and is seeking PhD opportunities and research collaborations.
+
+Currently, I am super excited about the potentials of Generative AI, and is seeking PhD opportunities on LLMs.
 
 ## Publications
 
