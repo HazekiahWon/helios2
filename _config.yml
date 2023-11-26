@@ -269,7 +269,7 @@ page:
     sidebar-overlay: false # 开启后正文不随sidebar移动而移动
   sidebar:
     avatar: # 侧边栏显示的头像
-      enable: true
+      enable: false
       img: /assets/image/logo.png # 头像的地址
     nav:
       - title: '<i class="fas fa-home fa-fw"></i> About me'
