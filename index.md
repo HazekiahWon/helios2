@@ -4,6 +4,7 @@ title: About Me
 ---
   <table border="0">
   <tbody>
+    <tr><tr/>
     <tr>
       <td background="transparent">
       <img width="200px" class="img-rounded" src="https://raw.githubusercontent.com/HazekiahWon/helios2/master/assets/image/photo2.jpg">
@@ -25,15 +26,13 @@ title: About Me
 
 I am currently a research engineer at Alibaba Group.
 Before that, I was advised by [Chao Du](https://duchao0726.github.io/) during my research internship at Alibaba.
-I finished my master's study in Computer Science at ShanghaiTech University in 2022, supervised by [Xuming He](https://faculty.sist.shanghaitech.edu.cn/faculty/hexm/index.html).
+I finished my master's study in Computer Science at *ShanghaiTech University* in 2022, supervised by [Xuming He](https://faculty.sist.shanghaitech.edu.cn/faculty/hexm/index.html).
 At that time I was also nominated as
-one of the Outstanding Graduates of Shanghai (1%).
-I received a Bachelor's degree from Wuhan University in 2019, and earned the National Scholarship (1%) in 2017.
+one of the <ins>Outstanding Graduates of Shanghai</ins> (1%).
+I received a Bachelor's degree from *Wuhan University* in 2019, and earned the <ins>National Scholarship</ins> (1%) in 2017.
 
 I have a broad research experience in machine learning, including
-Reinforcement Learning, Variational Bayes, Robustness, Vision and Language, etc.
-
-Currently, I am super excited about the potentials of Generative AI, and is seeking PhD opportunities on LLMs.
+Reinforcement Learning, Variational Bayes, Vison and Language. <ins>Currently, I am super excited about research on Generative AI, and I am looking for PhD opportunities on relevant topics.</ins> For more details, please check out my [CV](). 
 
 ## Publications
 
