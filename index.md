@@ -5,7 +5,7 @@ title: About Me
   <table border="0">
   <tbody>
     <tr>
-      <td>
+      <td background="transparent">
       <img width="200px" class="img-rounded" src="https://raw.githubusercontent.com/HazekiahWon/helios2/master/assets/image/photo2.jpg">
   </td>
       <td style="padding:10px">
