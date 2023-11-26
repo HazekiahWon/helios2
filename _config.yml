@@ -594,6 +594,7 @@ page:
       defer='defer'
     ></script>
     <style>
+    td {background:transparent;} 
     pre {
       max-height: 50vh;
       overflow: auto;
