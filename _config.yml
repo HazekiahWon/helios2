@@ -611,7 +611,7 @@ page:
     h5,
     h6,
     .sidebar {
-      font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
+      font-family: "Courier New", Microsoft JhengHei, monospace;
     }
     /*
     .wrap {
