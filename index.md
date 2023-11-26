@@ -16,7 +16,7 @@ title: About Me
           <b>Research Engineer</b>, Alibaba Group<br>
           <b> Email:</b> jasper.whz@outlook.com<br>
           <span style="font-size:16px">
-            <a href="cv/cv.comp.pdf">[CV]</a>
+            <a href="https://raw.githubusercontent.com/HazekiahWon/helios2/master/assets/Research_CV.pdf">[CV]</a>
             <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AH70aAXKjDjD1F_ZuFCn33pqS74ls-xL4AzvZhlpBKNUNl3A6PwinXFgpnF05TpLuQ-HviTC9Jvc5jk22Rn08Ong3wW-DfgCEyUzXoMVG84lsCuPs-p4FEFH74-9oPrRmt8&user=V96YGIMAAAAJ">[Google Scholar]</a>
           </span>
         </center>
@@ -33,7 +33,7 @@ one of the <ins>Outstanding Graduates of Shanghai</ins> (1%).
 I received a Bachelor's degree from *Wuhan University* in 2019, where I earned the prestigious <ins>National Scholarship</ins> (1%) in 2017.
 
 I have a broad research experience in machine learning, including
-Reinforcement Learning, Variational Bayes, Vison and Language. <ins>Currently, I am super excited about research on Generative AI, and I am looking for PhD opportunities / research collaborations on relevant topics.</ins> For more details, please check out my [CV](). 
+Reinforcement Learning, Variational Bayes, Vison and Language. <ins>Currently, I am super excited about research on Generative AI, and I am looking for PhD opportunities / research collaborations on relevant topics.</ins> For more details, please check out my [CV](https://raw.githubusercontent.com/HazekiahWon/helios2/master/assets/Research_CV.pdf).
 
 ## Publications
 
