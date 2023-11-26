@@ -92,15 +92,15 @@
 # 以下四个配置项为空时jekyll-github-metadata会帮你生成
 title: Haozhe Wang
 description: | # 头像背后的信息，<br/>代表换行
-  CS Master at ShanghaiTech <br/>
-  Prior WHUer <br/>
+  Nice to Meet You ! <br/>
+#  Prior WHUer <br/>
   <a href="/assets/jekyll-sitemaps/atom.xml" title="rss">
     <i class="fas fa-rss"></i>
   </a>
-  <a href="mailto:wu.kan@foxmail.com" title="wanghzh@shanghaitech.edu.cn"> 
+  <a href="mailto:jasper.whz@outlook.com" title="jasper.whz@outlook.edu.cn">
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="https://github.com/HazekiahWon" title="github">
+  <a href="https://github.com/HaozheJasper" title="Official Github">
     <i class="fab fa-github"></i>
   </a>
   <!--
@@ -123,7 +123,7 @@ description: | # 头像背后的信息，<br/>代表换行
   #   marginheight="0"
   # ></iframe>
   -->
-url: https://hazekiah.gitee.io # https://wu-kan.github.io
+#url: https://hazekiah.gitee.io # https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 markdown: kramdown
@@ -134,8 +134,8 @@ kramdown: # 见https://kramdown.gettalong.org/options.html
 
 permalink: /_posts/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
 author:
-  name: Haozhe Wang 
-  email: wanghzh@shanghaitech.edu.cn
+  name: Haozhe Wang
+  email: jasper.whz@outlook.com
 timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见https://www.iana.org/time-zones
 future: false # 不发布时间在未来的文章
 
@@ -275,14 +275,14 @@ page:
     nav:
       - title: '<i class="fas fa-home fa-fw"></i> About me'
         href: /
-      - title: '<i class="fas fa-tags fa-fw"></i> Posts'
-        href: /tags/
-      - title: '<i class="fas fa-archive fa-fw"></i> Timeline'
-        href: /archive/
-      - title: '<i class="fas fa-comments fa-fw"></i> Comments'
-        href: /comments/
-      - title: '<i class="fab fa-readme fa-fw"></i> About this theme'
-        href: /about/
+#      - title: '<i class="fas fa-tags fa-fw"></i> Posts'
+#        href: /tags/
+#      - title: '<i class="fas fa-archive fa-fw"></i> Timeline'
+#        href: /archive/
+#      - title: '<i class="fas fa-comments fa-fw"></i> Comments'
+#        href: /comments/
+#      - title: '<i class="fab fa-readme fa-fw"></i> About this theme'
+#        href: /about/
 
       # - title: '<i class="fas fa-coffee fa-fw"></i> Patronage'
       #   href: /merger/
@@ -362,7 +362,7 @@ page:
             document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
             document.getElementById("run_time_minute").innerHTML = setzero(minsold);
             document.getElementById("run_time_second").innerHTML = setzero(seconds);
-          }, 1000, "12/12/2018 00:00:00") // 这是我第一篇CSDN博客的时间
+          }, 1000, "12/12/2022 00:00:00") // 这是我第一篇CSDN博客的时间
         </script>
       </div>
       <div>
@@ -382,7 +382,7 @@ page:
           <i class="fas fa-user-friends fa-fw"></i>
           <span id="busuanzi_value_site_uv">
             <i class="fas fa-spinner fa-pulse"></i>
-          </span> visitors 
+          </span> visitors
         </div>
         <script
           src='https://cdn.jsdelivr.net/npm/busuanzi'
