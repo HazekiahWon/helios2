@@ -3,22 +3,25 @@ layout: index
 title: About Me
 ---
   <table>
-  <tbody><tr>
-  <td><img width="300px" src=assets/image/photo2.JPG>
+  <tbody>
+    <tr>
+      <td style="padding:10px 90px 10px 0px">
+      <img width="200px" class="img-rounded" src="assets/image/photo2.JPG">
   </td>
-    <td style="padding:10px">
-    <center>
-    <h1>Haozhe Wang 王浩哲</h1>
-    <b>Research Engineer</b>, Alibaba Group<br>
-<b> Email:</b> jasper.whz@outlook.com<br>
-    <span style="font-size:16px">
-      <a href="cv/cv.comp.pdf">[CV]</a>
-      <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AH70aAXKjDjD1F_ZuFCn33pqS74ls-xL4AzvZhlpBKNUNl3A6PwinXFgpnF05TpLuQ-HviTC9Jvc5jk22Rn08Ong3wW-DfgCEyUzXoMVG84lsCuPs-p4FEFH74-9oPrRmt8&user=V96YGIMAAAAJ">[Google Scholar]</a>
-    </span>
-    </center>
-    </td>
-  </tr>
-  </tbody></table>
+      <td style="padding:10px">
+        <center>
+          <h1>Haozhe Wang 王浩哲</h1>
+          <b>Research Engineer</b>, Alibaba Group<br>
+          <b> Email:</b> jasper.whz@outlook.com<br>
+          <span style="font-size:16px">
+            <a href="cv/cv.comp.pdf">[CV]</a>
+            <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AH70aAXKjDjD1F_ZuFCn33pqS74ls-xL4AzvZhlpBKNUNl3A6PwinXFgpnF05TpLuQ-HviTC9Jvc5jk22Rn08Ong3wW-DfgCEyUzXoMVG84lsCuPs-p4FEFH74-9oPrRmt8&user=V96YGIMAAAAJ">[Google Scholar]</a>
+          </span>
+        </center>
+      </td>
+    </tr>
+  </tbody>
+  </table>
 
 I am currently a research engineer at Alibaba Group.
 Before that, I was advised by [Chao Du](https://duchao0726.github.io/) during my research internship at Alibaba.
