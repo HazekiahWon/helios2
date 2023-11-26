@@ -6,8 +6,10 @@ title: About Me
   <tbody>
     <tr>
       <td background="transparent">
+        <center>
       <img width="200px" class="img-rounded" src="https://raw.githubusercontent.com/HazekiahWon/helios2/master/assets/image/photo2.jpg">
-  </td>
+        </center>
+        </td>
       <td style="padding:10px">
         <center>
           <h1>Haozhe Wang 王浩哲</h1>
@@ -28,10 +30,10 @@ Before that, I was advised by [Chao Du](https://duchao0726.github.io/) during my
 I finished my master's study in Computer Science at *ShanghaiTech University* in 2022, supervised by [Xuming He](https://faculty.sist.shanghaitech.edu.cn/faculty/hexm/index.html).
 At that time I was also nominated as
 one of the <ins>Outstanding Graduates of Shanghai</ins> (1%).
-I received a Bachelor's degree from *Wuhan University* in 2019, and earned the <ins>National Scholarship</ins> (1%) in 2017.
+I received a Bachelor's degree from *Wuhan University* in 2019, where I earned the prestigious <ins>National Scholarship</ins> (1%) in 2017.
 
 I have a broad research experience in machine learning, including
-Reinforcement Learning, Variational Bayes, Vison and Language. <ins>Currently, I am super excited about research on Generative AI, and I am looking for PhD opportunities on relevant topics.</ins> For more details, please check out my [CV](). 
+Reinforcement Learning, Variational Bayes, Vison and Language. <ins>Currently, I am super excited about research on Generative AI, and I am looking for PhD opportunities / research collaborations on relevant topics.</ins> For more details, please check out my [CV](). 
 
 ## Publications
 
