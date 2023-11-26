@@ -2,11 +2,11 @@
 layout: index
 title: About Me
 ---
-  <table>
+  <table border="0">
   <tbody>
     <tr>
-      <td style="padding:10px 90px 10px 0px">
-      <img width="200px" class="img-rounded" src="/assets/image/photo2.JPG">
+      <td>
+      <img width="200px" class="img-rounded" src="https://raw.githubusercontent.com/HazekiahWon/helios2/master/assets/image/photo2.jpg">
   </td>
       <td style="padding:10px">
         <center>
