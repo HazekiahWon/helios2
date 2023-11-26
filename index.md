@@ -2,8 +2,6 @@
 layout: index
 title: About Me
 ---
-<div class="col-7">
-    <center>
   <table>
   <tbody><tr>
   <td >
@@ -22,9 +20,6 @@ title: About Me
 </center>
   </tr>
   </tbody></table>
-  </center>
-<br>
-</div>
 
 I am currently a research engineer at Alibaba Group.
 Before that, I was advised by [Chao Du](https://duchao0726.github.io/) during my research internship at Alibaba.
