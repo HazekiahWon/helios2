@@ -33,7 +33,7 @@ one of the <ins>Outstanding Graduates of Shanghai</ins> (1% province-wide).
 I received a Bachelor's degree from *Wuhan University* in 2019, where I earned the prestigious <ins>National Scholarship</ins> (0.2% nation-wide) in 2017.
 
 I have a broad research experience in machine learning, including
-Reinforcement Learning, Variational Bayes, Vison and Language. <ins>Currently, I am super excited about research on Generative AI, and I am looking for PhD opportunities / research collaborations on relevant topics.</ins> For more details, please check out my [CV](https://raw.githubusercontent.com/HazekiahWon/helios2/master/assets/Research_CV.pdf).
+Reinforcement Learning, Variational Bayes, Vison and Language. <ins>Currently, I am super excited about research on Generative AI, and I am looking for opportunities / research collaborations on relevant topics.</ins> For more details, please check out my [CV](https://raw.githubusercontent.com/HazekiahWon/helios2/master/assets/Research_CV.pdf).
 
 ## Publications
 
